@@ -1,0 +1,335 @@
+{
+    "head": {
+        "success": true,
+        "code": "R0000",
+        "message": "操作成功"
+    },
+    "body": {
+        "list": [
+            {
+                "columnWidth": "140",
+                "definedSort": true,
+                "fieldExplain": "创建时间",
+                "fieldName": "createDate",
+                "formSubmitType": "DATA_BOX_TIM_yyyy-MM-dd HH:mm:ss",
+                "isUpdate": true,
+                "fieldType": "DATE",
+                "isAllowAdvanceQuery": false,
+                "isAllowQuery": true,
+                "isShow": true,
+                "seq": 1,
+                "sortField": false
+            },
+            {
+              "columnWidth": "140",
+              "definedSort": true,
+              "fieldExplain": "创建时间",
+              "fieldName": "createDate1",
+              "formSubmitType": "DATA_BOX_TIM_yyyy-MM-dd HH:mm",
+              "isUpdate": true,
+              "fieldType": "DATE",
+              "isAllowAdvanceQuery": false,
+              "isAllowQuery": true,
+              "isShow": true,
+              "seq": 1,
+              "sortField": false
+            },
+            {
+              "columnWidth": "140",
+              "definedSort": true,
+              "fieldExplain": "创建时间",
+              "fieldName": "createDate2",
+              "formSubmitType": "DATA_RANGE_BOX_TIM_yyyy-MM-dd HH:mm:ss",
+              "isUpdate": true,
+              "fieldType": "DATE",
+              "isAllowAdvanceQuery": false,
+              "isAllowQuery": true,
+              "isShow": true,
+              "seq": 1,
+              "sortField": false
+            },
+            {
+                "columnWidth": "140",
+                "definedSort": true,
+                "fieldExplain": "ID",
+                "fieldName": "id",
+                "fieldType": "CHAR",
+                "isAllowAdvanceQuery": true,
+                "isAllowQuery": true,
+                "isShow": true,
+                "seq": 2,
+                "sortField": false
+            },
+            {
+                "columnWidth": "140",
+                "definedSort": true,
+                "fieldExplain": "创建人员ID",
+                "fieldName": "createUser",
+                "formSubmitType": "ONE_TXT",
+                "isUpdate": true,
+                "fieldType": "CHAR",
+                "isAllowAdvanceQuery": false,
+                "isAllowQuery": false,
+                "isShow": true,
+                "seq": 14,
+                "sortField": true
+            },
+            {
+                "columnWidth": "140",
+                "definedSort": true,
+                "fieldExplain": "物料档案id",
+                "formSubmitType": "MORE_TXT",
+                "isUpdate": true,
+                "fieldName": "invId",
+                "fieldType": "CHAR",
+                "isAllowAdvanceQuery": false,
+                "isAllowQuery": false,
+                "isShow": true,
+                "seq": 22,
+                "sortField": false
+            },
+            {
+              "columnWidth": "140",
+              "definedSort": true,
+              "fieldExplain": "控制方式",
+              "fieldName": "ctrlMode",
+              "fieldType": "ENUM",
+              "formSubmitType": "SELECT",
+              "isShow": true,
+              "isUpdate": true,
+              "options": [
+                {
+                  "label": "数量控制",
+                  "value": "quantity_control"
+                },
+                {
+                  "label": "不控制",
+                  "value": "non_control"
+                }
+              ],
+              "seq": 20
+            },
+            {
+                "columnWidth": "140",
+                "definedSort": true,
+                "fieldExplain": "更新人员ID",
+                "fieldName": "updateUser",
+                "fieldType": "CHAR",
+                "isAllowAdvanceQuery": true,
+                "isAllowQuery": false,
+                "isShow": false,
+                "seq": 24,
+                "sortField": true
+            },
+            {
+                "columnWidth": "140",
+                "definedSort": true,
+                "fieldExplain": "计量单位ID",
+                "fieldName": "comId",
+                "fieldType": "CHAR",
+                "isAllowAdvanceQuery": true,
+                "isAllowQuery": true,
+                "isShow": false,
+                "seq": 30,
+                "sortField": false
+            },
+            {
+                "columnWidth": "140",
+                "definedSort": true,
+                "fieldExplain": "物料类别id",
+                "fieldName": "invcId",
+                "fieldType": "CHAR",
+                "isAllowAdvanceQuery": false,
+                "isAllowQuery": false,
+                "isShow": false,
+                "seq": 32,
+                "sortField": false
+            },
+            {
+                "columnWidth": "140",
+                "definedSort": true,
+                "fieldExplain": "理论单重",
+                "fieldName": "theoryWeight",
+                "fieldType": "NUMBER",
+                "isAllowAdvanceQuery": true,
+                "isAllowQuery": true,
+                "isShow": false,
+                "seq": 37,
+                "sortField": false
+            },
+            {
+                "columnWidth": "140",
+                "definedSort": true,
+                "fieldExplain": "公司id",
+                "fieldName": "orgId",
+                "fieldType": "CHAR",
+                "isAllowAdvanceQuery": false,
+                "isAllowQuery": false,
+                "isShow": true,
+                "seq": 40,
+                "sortField": false
+            },
+            {
+                "columnWidth": "140",
+                "definedSort": true,
+                "fieldExplain": "物料编码",
+                "fieldName": "invCode",
+                "fieldType": "CHAR",
+                "isAllowAdvanceQuery": true,
+                "isAllowQuery": false,
+                "isShow": true,
+                "seq": 44,
+                "sortField": true
+            },
+            {
+                "columnWidth": "140",
+                "definedSort": true,
+                "fieldExplain": "格式名称",
+                "fieldName": "printName",
+                "fieldType": "CHAR",
+                "isAllowAdvanceQuery": true,
+                "isAllowQuery": true,
+                "isShow": false,
+                "seq": 46,
+                "sortField": false
+            },
+            {
+                "columnWidth": "140",
+                "definedSort": true,
+                "fieldExplain": "是否销售",
+                "formSubmitType": "MULTIPLE_SELECTION",
+                "isUpdate": true,
+                "fieldName": "isSa",
+                "fieldType": "BOOLEAN",
+                "isAllowAdvanceQuery": true,
+                "isAllowQuery": false,
+                "isShow": true,
+                "seq": 48,
+                "sortField": true,
+                "action":{
+                  "type":"LABEL",
+                  "value":"red"
+                }
+            },
+            {
+                "columnWidth": "140",
+                "definedSort": true,
+                "fieldExplain": "规格型号",
+                "fieldName": "model",
+                "fieldType": "CHAR",
+                "isAllowAdvanceQuery": true,
+                "isAllowQuery": true,
+                "isShow": false,
+                "seq": 62,
+                "sortField": true
+            },
+            {
+                "columnWidth": "140",
+                "definedSort": true,
+                "fieldExplain": "材质",
+                "fieldName": "material",
+                "fieldType": "CHAR",
+                "isAllowAdvanceQuery": true,
+                "isAllowQuery": false,
+                "isShow": false,
+                "seq": 70,
+                "sortField": true
+            },
+            {
+                "columnWidth": "140",
+                "definedSort": true,
+                "fieldExplain": "是否分配",
+                "fieldName": "allocate",
+                "fieldType": "BOOLEAN",
+                "isAllowAdvanceQuery": false,
+                "isAllowQuery": false,
+                "isShow": true,
+                "seq": 73,
+                "sortField": false
+            },
+            {
+                "columnWidth": "140",
+                "definedSort": true,
+                "fieldExplain": "内码",
+                "fieldName": "innerCode",
+                "fieldType": "CHAR",
+                "isAllowAdvanceQuery": false,
+                "isAllowQuery": true,
+                "isShow": false,
+                "seq": 73,
+                "sortField": true
+            },
+            {
+                "columnWidth": "140",
+                "definedSort": true,
+                "fieldExplain": "损耗率",
+                "fieldName": "lossPercentage",
+                "fieldType": "NUMBER",
+                "isAllowAdvanceQuery": false,
+                "isAllowQuery": true,
+                "isShow": false,
+                "seq": 78,
+                "sortField": false
+            },
+            {
+                "columnWidth": "140",
+                "definedSort": true,
+                "fieldExplain": "创建人员",
+                "fieldName": "createUser",
+                "fieldType": "CHAR",
+                "isAllowAdvanceQuery": false,
+                "isAllowQuery": false,
+                "isShow": true,
+                "seq": 89,
+                "sortField": true
+            },
+            {
+                "columnWidth": "140",
+                "definedSort": true,
+                "fieldExplain": "打印类型",
+                "fieldName": "printType",
+                "fieldType": "ENUM",
+                "isAllowAdvanceQuery": true,
+                "isAllowQuery": true,
+                "isShow": true,
+                "mapper": {
+                    "SALE_LEAVE_FACTORY": "发货出厂",
+                    "PURORDER_ENTER_FACTORY": "收货进厂",
+                    "ALLOCATION_ASSAY_FORMATE": "调拨化验",
+                    "ALLOT_ENTER_FACTORY": "调拨进厂",
+                    "ALLOT_LEAVE_FACTORY": "调拨出厂",
+                    "SALE_ASSAY_FORMATE": "发货化验",
+                    "SALE_ENTER_FACTORY": "发货进厂",
+                    "PURORDER_LEAVE_FACTORY": "收货出厂",
+                    "PURCHASE_ASSAY_FORMATE": "收货化验"
+                },
+                "seq": 91,
+                "sortField": true
+            },
+            {
+                "columnWidth": "140",
+                "definedSort": true,
+                "fieldExplain": "最高进价",
+                "fieldName": "topBuyingPrice",
+                "fieldType": "NUMBER",
+                "isAllowAdvanceQuery": true,
+                "isAllowQuery": true,
+                "isShow": false,
+                "seq": 97,
+                "sortField": true
+            },
+            {
+                "columnWidth": "140",
+                "definedSort": true,
+                "fieldExplain": "集团id",
+                "fieldName": "groupId",
+                "fieldType": "CHAR",
+                "isAllowAdvanceQuery": false,
+                "isAllowQuery": true,
+                "isShow": true,
+                "seq": 98,
+                "sortField": true
+            }
+        ]
+    }
+}
