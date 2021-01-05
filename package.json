@@ -14,7 +14,7 @@
   "dependencies": {
     "@smallwei/avue": "^1.5.4",
     "ali-oss": "^6.1.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "babel-polyfill": "^6.26.0",
     "china-area-data": "^4.0.0",
     "classlist-polyfill": "^1.2.0",
